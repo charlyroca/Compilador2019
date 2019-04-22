@@ -10,3 +10,83 @@ a:=b
 c:=a+b
 a:=(9*8)
 ENDWHILE
+
+_
+,
+;
+:
+()
+[]
+{}
+&&
+||
+!
+++
+=
+-
++
+*
+/
+==
+<>
+>
+<
+>=
+<=
+1234
+123.45
+.12345
+4444.
+""
+"test"
+BETWEEN(a,b,c);
+INLIST (a,b+c,b-c);
+VAR
+ENDVAR
+
+while(a<b){
+	if(a<3){
+		b:=123
+	}
+}
+
+while(if(a>b))
+{a=10;}
+
+int int a;
+
+write "1234";
+
+if else
+{a=b};
+
+if{}; 
+else{};
+
+if(else {});
+
+else {};
+if{};
+
+a=b;
+
+a==b;
+
+a=10*5+2;
+
+IF (a==b)
+THEN
+{
+WRITE 100;
+}
+ENDIF
+
+IF(a==b)
+THEN
+IF(A==C)
+THEN
+WRITE 200
+ELSE
+WRITE 300
+ENDIF
+ENDIF
